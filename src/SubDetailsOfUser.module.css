@@ -1,0 +1,84 @@
+/* subscription.module.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.box {
+  background-color: rgba(4, 61, 64, 0.919);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  /* Remove flex property */
+  /* flex: 1; */
+  width: calc(33.33% - 40px); /* Three boxes per row with margins included */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles applied when the screen width is 768px or smaller */
+  .box {
+      width: calc(100% - 20px); /* Full width on small screens with adjusted margins */
+      margin: 10px;
+  }
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+  font-size: 25px;
+  color: aquamarine;
+  text-align: center;
+}
+
+.box h3 {
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+
+.box p,
+.box li {
+  color: white;
+  font-size: 17px;
+  text-align: left;
+}
+
+.paragraphSpacing {
+  margin-top: 10px;
+}
+
+.BtnBlue,
+.BtnBlue1 {
+  background: rgb(207, 196, 196);
+  margin-top: 32px;
+  font-size: 22px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-left: 45%;
+  margin-bottom: 5%;
+}
+
+.BtnBlue:hover,
+.BtnBlue1:hover {
+  background-color: rgb(107, 101, 101);
+  color: aliceblue;
+}
+
+
+.excp{
+font-size: 35px;
+
+}
+

@@ -1,0 +1,74 @@
+/* Admn.module.css */
+
+.bg-gradient {
+    background: linear-gradient(to bottom, #007bff, #333);
+    padding: 4rem 0; /* Add some padding for spacing */
+  }
+  
+  .container {
+    max-width: 900px; /* Adjust the maximum width */
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  .title {
+    font-size: 4rem; /* Decrease the font size */
+    font-weight: bold;
+    color: #000000; /* Change title color */
+    margin-bottom: 1rem; /* Add some margin */
+    margin-top: 1rem;
+  }
+  
+  .description {
+    font-size: 2.25rem;
+    color: #333;
+    margin-bottom: 5rem; /* Add more spacing below the description */
+  }
+  
+  .card {
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border: 1px solid #e4d9d9; /* Lighten the border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffffae;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add transitions for hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-4px); /* Lift the card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  .card-title {
+    font-size: 2.5rem; /* Increase the font size for the card title */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem; /* Reduce the margin */
+  }
+  
+  .card-info {
+    font-size: 1.9rem; /* Adjust the font size for card info */
+    color: #777;
+  }
+  
+  .link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+    margin-top: 1rem;
+    display: inline-block; /* Prevent link from spanning full width */
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+  

@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part */}
         <div className="logo">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" width="100%"/>
         </div>
 
         {/* 2nd menu part */}
@@ -31,20 +31,24 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <Link to="/" activeClassName="active">Home</Link>
+            <a href="http://localhost:3000">Home</a>
             </li>
             <li>
-              <Link to="/Weather" activeClassName="active" >Weather</Link>
+            <a href="http://localhost:3000/Weather" >Weather</a>
             </li>
             <li>
-              <a href="=Home">Information</a>
+            <a href="http://localhost:3000">Information</a>
             </li>
             <li>
-              <a href="=Home">About us</a>
+            <a href="http://localhost:3000">About us</a>
             </li>
             <li>
-              <a href="/Premium">Premium</a>
+            <a href="http://localhost:3001/home">Premium</a>
             </li>
+            <li>
+            <a  href="http://localhost:3000/subscription">My Subcriptions</a>
+            </li>
+
           </ul>
         </div>
 

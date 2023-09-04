@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css'; // Create this CSS file to style the footer
 
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -13,25 +14,31 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h2>Links</h2>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Weather</a></li>
+          <ul> 
+            <li><a href="http://localhost:3000/">Home</a></li>
+            <li><a href="http://localhost:3000/Weather">Weather</a></li>
             <li><a href="#services">Information</a></li>
-            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#contact">AboutUs</a></li>
           </ul>
         </div>
+
+        <div className="footer-section">
+          <h2>Subsciption</h2>
+          <li><a href="http://localhost:3001/home">Premium</a></li>
+          <li><a href="http://localhost:3000/subscription">My Subsciptions</a></li>
+        </div>
+
+
         <div className="footer-section">
           <h2>Contact Us</h2>
           <p>
-            Email: contact@example.com<br />
-            Phone: +123 456 7890
+            Email: agroweather@gmail.com<br />
+            Phone: +91 7771199222
           </p>
         </div>
-
-       
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} AgroWeather. All rights reserved.</p>
       </div>
     </footer>
   );
